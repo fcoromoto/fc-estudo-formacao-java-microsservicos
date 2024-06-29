@@ -8,10 +8,13 @@
 - [ ] [microsservicos-pratica-mensageria-rabbitmq](https://cursos.alura.com.br/course/microsservicos-pratica-mensageria-rabbitmq)
 - [ ] [hotmart-e-a-evolucao-da-arquitetura-java-z1068](https://cursos.alura.com.br/extra/cases/hotmart-e-a-evolucao-da-arquitetura-java-z1068)
 
+Link do repositório da professora com o conteudo
+https://github.com/jacqueline-oliveira/2545-alurafood-ms-java-spring/tree/master
+
 ---
 ## Microsservicos Implementando Java Spring
 
-### Tecnologia
+### Pagamento API 
 * Java
   * JDK 17: sdk man 17.0.11-amzn
   * Maven: maven wrapper
@@ -24,7 +27,11 @@
   * Mysql Driver
   * Lombok
   * ModelMapper
+  * Eureka Client: 3.1.2
 * Mysql
   * 8.0.29
 
-
+### Eureka Server
+* Java
+  * Spring Boot: 2.5.6
+  * Spring Cloud Eureka Server: 3.1.2
