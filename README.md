@@ -7,3 +7,23 @@
 - [ ] [microsservicos-pratica-iac-cdk-deploy-aws](https://cursos.alura.com.br/course/microsservicos-pratica-iac-cdk-deploy-aws)
 - [ ] [microsservicos-pratica-mensageria-rabbitmq](https://cursos.alura.com.br/course/microsservicos-pratica-mensageria-rabbitmq)
 - [ ] [hotmart-e-a-evolucao-da-arquitetura-java-z1068](https://cursos.alura.com.br/extra/cases/hotmart-e-a-evolucao-da-arquitetura-java-z1068)
+
+---
+## Microsservicos Implementando Java Spring
+
+### Tecnologia
+* Java
+  * JDK 17: sdk man 17.0.11-amzn
+  * Maven: maven wrapper
+  * Spring Boot: 2.5.6
+  * Spring Data JPA
+  * Spring Validation
+  * Spring Web
+  * Spring DevTools
+  * Flyway
+  * Mysql Driver
+  * Lombok
+* Mysql
+  * 8.0.29
+
+
