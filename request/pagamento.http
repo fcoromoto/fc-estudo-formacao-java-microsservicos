@@ -1,0 +1,36 @@
+### Get all Pagamentos
+GET http://localhost:8080/pagamentos
+
+### Get Pagamento by ID
+GET http://localhost:8080/pagamentos/2
+
+### Create a new Pagamento
+POST http://localhost:8080/pagamentos
+Content-Type: application/json
+
+{
+  "valor": 100.0,
+  "nome": "John Doe",
+  "numero": "1234567890123456",
+  "expiracao": "12/24",
+  "cvc": "123",
+  "formaPagamentoId": 1,
+  "pedidoId": 1
+}
+
+### Update a Pagamento
+PUT http://localhost:8080/pagamentos/1
+Content-Type: application/json
+
+{
+  "valor": 200.0,
+  "nome": "John Doe",
+  "numero": "1234567890123456",
+  "expiracao": "12/24",
+  "cvc": "123",
+  "formaPagamentoId": 1,
+  "pedidoId": 1
+}
+
+### Delete a Pagamento
+DELETE http://localhost:8080/pagamentos/1

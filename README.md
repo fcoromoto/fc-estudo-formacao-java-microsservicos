@@ -23,6 +23,7 @@
   * Flyway
   * Mysql Driver
   * Lombok
+  * ModelMapper
 * Mysql
   * 8.0.29
 
