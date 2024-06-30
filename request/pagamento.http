@@ -1,13 +1,13 @@
 ### Get all Pagamentos
-GET http://localhost:8080/pagamentos
+GET http://localhost:8082/pagamento-ms/pagamentos
 Cache-Control: no-cache
 
 ### Get Pagamento by ID
-GET http://localhost:8080/pagamentos/2
+GET http://localhost:8082/pagamento-ms/pagamentos/1
 Cache-Control: no-cache
 
 ### Create a new Pagamento
-POST http://localhost:8080/pagamentos
+POST http://localhost:8082/pagamento-ms/pagamentos
 Cache-Control: no-cache
 Content-Type: application/json
 
@@ -22,7 +22,7 @@ Content-Type: application/json
 }
 
 ### Update a Pagamento
-PUT http://localhost:8080/pagamentos/1
+PUT http://localhost:8082/pagamento-ms/pagamentos/1
 Cache-Control: no-cache
 Content-Type: application/json
 
@@ -37,5 +37,5 @@ Content-Type: application/json
 }
 
 ### Delete a Pagamento
-DELETE http://localhost:8080/pagamentos/1
+DELETE http://localhost:8082/pagamento-ms/pagamentos/1
 Cache-Control: no-cache

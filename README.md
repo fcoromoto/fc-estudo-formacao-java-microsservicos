@@ -14,7 +14,7 @@ https://github.com/jacqueline-oliveira/2545-alurafood-ms-java-spring/tree/master
 ---
 ## Microsservicos Implementando Java Spring
 
-### Pagamento API 
+### Pagamento API | Pedidos API 
 * Java
   * JDK 17: sdk man 17.0.11-amzn
   * Maven: maven wrapper
@@ -33,5 +33,14 @@ https://github.com/jacqueline-oliveira/2545-alurafood-ms-java-spring/tree/master
 
 ### Eureka Server
 * Java
+  * JDK 17: sdk man 17.0.11-amzn
+  * Maven: maven wrapper
   * Spring Boot: 2.5.6
   * Spring Cloud Eureka Server: 3.1.2
+
+### Gateway
+* Java
+  * JDK 17: sdk man 17.0.11-amzn
+  * Maven: maven wrapper
+  * Spring Boot: 2.5.6
+  * Spring Cloud Gateway: 3.1.2
