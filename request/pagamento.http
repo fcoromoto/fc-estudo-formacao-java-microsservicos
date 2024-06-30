@@ -39,3 +39,7 @@ Content-Type: application/json
 ### Delete a Pagamento
 DELETE http://localhost:8082/pagamento-ms/pagamentos/1
 Cache-Control: no-cache
+
+### Confirmar Pagamento
+PATCH http://localhost:8082/pagamento-ms/pagamentos/1/confirmar
+Cache-Control: no-cache

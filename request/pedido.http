@@ -24,3 +24,8 @@ Content-Type: application/json
 ### Get all Pedidos
 GET http://localhost:8082/pedidos-ms/pedidos
 Cache-Control: no-cache
+
+
+### Get By Id
+GET http://localhost:8082/pedidos-ms/pedidos/1
+Cache-Control: no-cache
