@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  pedidodb:
+    container_name: pedidodb
+    image: mysql:8.0.29
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: pedidodb
+    volumes:
+      - pedido_db_data:/var/lib/mysql
+    ports:
+      - 3307:3306
+
+volumes:
+  pedido_db_data:

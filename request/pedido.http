@@ -1,0 +1,22 @@
+### Criar Pedido
+POST http://localhost:8080/pedidos
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": null,
+  "dataHora": null,
+  "status": null,
+  "itemPedidos": [
+    {
+      "id": null,
+      "quantidade": 1,
+      "descricao": "Caneta"
+    },
+    {
+      "id": null,
+      "quantidade": 2,
+      "descricao": "Lapis"
+    }
+  ]
+}
