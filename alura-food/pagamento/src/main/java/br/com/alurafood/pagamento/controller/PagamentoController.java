@@ -2,6 +2,7 @@ package br.com.alurafood.pagamento.controller;
 
 import br.com.alurafood.pagamento.dto.PagamentoDto;
 import br.com.alurafood.pagamento.service.PagamentoService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -47,7 +48,12 @@ public class PagamentoController {
   }
 
   @PatchMapping("/{id}/confirmar")
+  @CircuitBreaker(name = "atualizaPedido", fallbackMethod = "pagamentoAutorizadoComIntegracaoPendente")
   public void confirmarPagamento(@PathVariable @NotNull Long id){
     service.confirmarPagamento(id);
+  }
+
+  public void pagamentoAutorizadoComIntegracaoPendente(Long id, Exception e){
+    service.alteraStatus(id);
   }
 }

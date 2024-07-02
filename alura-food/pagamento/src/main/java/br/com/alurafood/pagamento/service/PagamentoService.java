@@ -65,4 +65,12 @@ public class PagamentoService {
     repository.save(pagamento);
     pedido.atualizaPagamento(pagamento.getPedidoId());
   }
+
+  public void alteraStatus(Long id) {
+    var pagamento = repository.findById(id)
+        .orElseThrow(() -> new RuntimeException("Pagamento não encontrado"));
+
+    pagamento.setStatus(Status.CONFIRMADO_SEM_INTEGRACAO);
+    repository.save(pagamento);
+  }
 }
