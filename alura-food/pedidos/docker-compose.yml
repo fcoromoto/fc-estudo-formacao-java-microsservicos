@@ -1,6 +1,22 @@
 version: '3.9'
 
 services:
+
+  pedido:
+    container_name: pedidos
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+      - "8000:8000"
+    environment:
+      DB_URL: jdbc:mysql://pedidodb:3306/pedidodb
+      DB_USER: root
+      DB_PASSWORD: root
+    depends_on:
+      pedidodb:
+        condition: service_healthy
+
   pedidodb:
     container_name: pedidodb
     image: mysql:8.0.29
@@ -12,6 +28,11 @@ services:
       - pedido_db_data:/var/lib/mysql
     ports:
       - 3307:3306
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 volumes:
   pedido_db_data:

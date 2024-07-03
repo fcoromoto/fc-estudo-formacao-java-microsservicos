@@ -22,7 +22,8 @@ Content-Type: application/json
 }
 
 ### Get all Pedidos
-GET http://localhost:8082/pedidos-ms/pedidos
+#GET http://localhost:8082/pedidos-ms/pedidos
+GET http://localhost:8080/pedidos
 Cache-Control: no-cache
 
 
