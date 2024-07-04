@@ -9,7 +9,8 @@
 - [ ] [hotmart-e-a-evolucao-da-arquitetura-java-z1068](https://cursos.alura.com.br/extra/cases/hotmart-e-a-evolucao-da-arquitetura-java-z1068)
 
 Link do repositório da professora com o conteudo
-https://github.com/jacqueline-oliveira/2545-alurafood-ms-java-spring/tree/master
+* [Github Microsservicos Implementando Java Spring](https://github.com/jacqueline-oliveira/2545-alurafood-ms-java-spring/tree/master)
+* [Github microsservicos-pratica-iac-cdk-deploy-aws](https://github.com/alura-cursos/2625-alurafood-ms-infra-aws/tree/master/src)
 
 ---
 ## Microsservicos Implementando Java Spring
