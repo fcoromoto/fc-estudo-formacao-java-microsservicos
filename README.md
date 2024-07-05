@@ -5,6 +5,9 @@
 - [x] [Microsservicos-pratica-tomada-decisoes](https://cursos.alura.com.br/course/Microsservicos-pratica-tomada-decisoes)
 - [x] [Microsservicos Implementando Java Spring](https://cursos.alura.com.br/course/microsservicos-implementando-java-spring)
 - [x] [microsservicos-pratica-iac-cdk-deploy-aws](https://cursos.alura.com.br/course/microsservicos-pratica-iac-cdk-deploy-aws)
+  - [ ] [redes-conceitos-iniciais-criacao-intranet](https://cursos.alura.com.br/course/redes-conceitos-iniciais-criacao-intranet?preRequirementFrom=microsservicos-pratica-iac-cdk-deploy-aws)
+  - [ ] [amazon-ecs-docker-nuvem-aws](https://cursos.alura.com.br/course/amazon-ecs-docker-nuvem-aws?preRequirementFrom=microsservicos-pratica-iac-cdk-deploy-aws)
+  - [ ] [amazon-ec2-alta-disponibilidade-escalabilidade-aplicacao](https://cursos.alura.com.br/course/amazon-ec2-alta-disponibilidade-escalabilidade-aplicacao?preRequirementFrom=microsservicos-pratica-iac-cdk-deploy-aws)
 - [ ] [microsservicos-pratica-mensageria-rabbitmq](https://cursos.alura.com.br/course/microsservicos-pratica-mensageria-rabbitmq)
 - [ ] [hotmart-e-a-evolucao-da-arquitetura-java-z1068](https://cursos.alura.com.br/extra/cases/hotmart-e-a-evolucao-da-arquitetura-java-z1068)
 
